@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project
+# Welcome to CDK TypeScript project
 
 This project is a simple SQS queue subscription module designed to listen to messages posted on an SQS queue. 
 It processes incoming messages and can be used to trigger an email based on the content of the messages. 
