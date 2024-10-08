@@ -27,7 +27,9 @@ CloudWatch Logs.
 
 ### Future Enhancements
 
-This project/service can be used for tasks such as triggering a Welcome Email when a new user or person is created 
-in our system. As the person-service publishes an event to the SQS queue upon the creation of a new entry in DynamoDB, 
-this service listens to that event through a Lambda function, making it suitable for initiating follow-up actions like 
-sending welcome emails to newly created users.
+This project/service can be enhanced in several ways to improve its functionality and security:
+
+* **Email Notifications**: Implement a mechanism to send email notifications based on the content of the messages.
+* **Data Validation**: Implement data validation checks to ensure that only valid data is processed.
+* **Data Integrity**: Enhance data integrity by implementing AWS KMS for encryption and decryption of data, 
+ensuring that information is secure both at rest and in transit.
