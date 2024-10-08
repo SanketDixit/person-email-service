@@ -5,5 +5,5 @@ import { PersonEmailServiceStack } from '../lib/person-email-service-stack';
 
 const app = new cdk.App();
 new PersonEmailServiceStack(app, 'PersonEmailServiceStack', {
-    env: { account: '869935063528', region: 'eu-central-1' }
+    env: { account: 'Please enter a valid AWS account', region: 'eu-central-1' }
 });
