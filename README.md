@@ -7,6 +7,7 @@ making it ideal for scenarios such as sending automated email notifications or a
 
 ## Useful commands to execute the project
 
+* `npm install`       install all the dependencies
 * `npm run build`     compile typescript to js
 * `npm cdk bootstrap` required to run only if you are deploying the stack for the first time
 * `npx cdk deploy`    deploy this stack to your default AWS account/region
